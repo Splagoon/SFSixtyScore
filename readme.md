@@ -6,7 +6,7 @@ A tool to read the player's current score from a screenshot or video feed of Sta
 
 Requires .NET Core 2.2.401 or newer.
 
-To run the automated tests, enter the SFSixtyScore.Test folder and run:
+To run the automated tests, enter the root folder and run:
 ```sh
 dotnet test
 ```
