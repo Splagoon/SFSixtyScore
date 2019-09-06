@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <RootNamespace>SFSixtyScore</RootNamespace>
     <OutputType>Library</OutputType>
@@ -7,14 +7,14 @@
   <ItemGroup>
     <Content Include="Asset/**/*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>  
-  </ItemGroup>
-  <ItemGroup>
+    </Content>
     <Compile Include="ScreenCapture.fs" />
     <Compile Include="OCR.fs" />
     <Compile Include="Library.fs" />
+    <Compile Include="Mask.fs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="SFML.Graphics" Version="2.5.0" />
     <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
   </ItemGroup>
